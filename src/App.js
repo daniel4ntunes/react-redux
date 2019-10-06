@@ -1,10 +1,10 @@
-import React from "react";
-import { Provider } from "react-redux";
+import React from 'react';
+import { Provider } from 'react-redux';
 
-import Video from "./components/Video";
-import Sidebar from "./components/Sidebar";
+import Video from './components/Video';
+import Sidebar from './components/Sidebar';
 
-import store from "./store";
+import store from './store';
 
 function App() {
   return (
