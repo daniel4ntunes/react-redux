@@ -12,20 +12,19 @@ module.exports = {
         extensions: [".js", ".jsx", "prettier"]
       }
     ],
-    "global-require": "off",
-    "import/prefer-default-export": "off",
+    "global-require": 0,
+    "import/prefer-default-export": 0,
     "no-unused-expressions": ["error", { allowTaggedTemplates: true }],
     "no-underscore-dangle": [1, { allow: ["_id"] }],
-    "react/destructuring-assignment": "off",
-    "react/prop-types": 0,
+    "react/destructuring-assignment": 0,
+    "react/prop-types": 2,
     "no-use-before-define": [
       "error",
       { functions: true, classes: true, variables: false }
-    ],
-    experimentalDecorators: true,
-    "import/prefer-default-export": "off",
-    "import/no-extraneous-dependencies": "off",
-    "consistent-return": "off",
-    "react/destructuring-assignment": "off"
+    ]
+    // "import/prefer-default-export": 0,
+    // "import/no-extraneous-dependencies": 0,
+    // "consistent-return": 0,
+    // "react/destructuring-assignment": 0
   }
 };

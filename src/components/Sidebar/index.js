@@ -14,7 +14,7 @@ const Sidebar = ({ modules, toggleLesson }) => (
           {module.lessons.map(lesson => (
             <li key={lesson.id}>
               {lesson.title}
-              <button onClick={() => toggleLesson(module, lesson)}>
+              <button type="button" onClick={() => toggleLesson(module, lesson)}>
                 Selecionar
               </button>
             </li>
@@ -28,11 +28,6 @@ const Sidebar = ({ modules, toggleLesson }) => (
 const mapStateToProps = state => ({
   modules: state.course.modules
 });
-
-// const mapDispatchToProps = dispatch => ({
-//   toggleLesson: (module, lesson) =>
-//     dispatch(CourseActions.toggleLesson(module, lesson))
-// });
 
 const mapDispatchToProps = dispatch =>
   bindActionCreators(CourseActions, dispatch);

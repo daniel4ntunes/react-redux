@@ -4,9 +4,8 @@ import { connect } from "react-redux";
 
 const Video = ({ activeModule, activeLesson }) => (
   <div>
-    <strong>Módulo {activeModule.title}</strong>
-    <br />
-    <span>Aula {activeLesson.title}</span>
+    <p><strong>{activeModule.title && `Módulo ${activeModule.title}`}</strong></p>
+    <p><span>{activeLesson.title && `Aula ${activeLesson.title}`}</span></p>
   </div>
 );
 
