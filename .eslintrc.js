@@ -21,10 +21,10 @@ module.exports = {
     "no-use-before-define": [
       "error",
       { functions: true, classes: true, variables: false }
-    ]
-    // "import/prefer-default-export": 0,
-    // "import/no-extraneous-dependencies": 0,
-    // "consistent-return": 0,
-    // "react/destructuring-assignment": 0
+    ],
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 0,
+    "consistent-return": 0,
+    "react/destructuring-assignment": 0
   }
 };
