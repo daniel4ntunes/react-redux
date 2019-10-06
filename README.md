@@ -1,4 +1,4 @@
-<h1 align="center">React with Redux</h1>
+<h1 align="center">React with Redux :white_check_mark:</h1>
 
 > Simple example code using react with redux
 
